@@ -93,6 +93,8 @@
         <div class="bounce2"></div>
         <div class="bounce3"></div>
       </div>
+
+      
     </div>
 
     <div class="body">
@@ -155,11 +157,12 @@
                           <a href="about.html" class="nav-link">About</a>
                         </li>
                         <li>
-                          <a href="#products" class="nav-link">Products</a>
+                          <a href="#" class="nav-link">Products</a>
                         </li>
                         <li class="dropdown">
-                          <a href="#" class="nav-link">Export</a>
-                          <!-------
+                          <a href="#" class="nav-link dropdown-toggle"
+                            >Export</a
+                          >
                           <ul class="dropdown-menu">
                             <li>
                               <a href="#" class="dropdown-item">View All</a>
@@ -321,6 +324,52 @@
           </div>
         </div>
       </header>
+      <div class="floating-icon">
+        <style>
+          .floating-icon
+          {
+            position: fixed;
+            z-index: 1;
+          }
+          .floating-container
+          {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 97.5vw;
+            position: relative;
+            top: 35em;
+            transition: all ease 0.5s;
+          }
+          .floating-container a {
+            position: relative;
+            top: 50%;
+        }
+          .icons {
+            width: 40px;
+            height: 40px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            text-decoration: none;
+            background: #111;
+            margin: 0.2rem;
+            border-radius: 50%;
+            box-shadow: 0 2px 2px #d1d1d1;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.15s ease;
+          }
+          .whatsapp:hover {
+            background: #25D366;
+            color: #fff;
+          }
+        </style>
+        <div class="floating-container">
+          <a class="icons whatsapp"  href="https://api.whatsapp.com/send?phone=9023508778" target="_blank">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </div>
+      </div>
 
       <div role="main" class="main">
         <section
@@ -550,7 +599,7 @@
 
         <div class="custom-page-wrapper">
           <section
-            class="section bg-transparent border-0 position-relative py-0 m-0 id=products" id=products
+            class="section bg-transparent border-0 position-relative py-0 m-0"
           >
             <div
               class="container container-xl-custom custom-container-style custom-margin-top"
@@ -763,9 +812,9 @@
                         <div class="blog-content">
                           <div class="blog-info">
                           </div>
-                          <h3 class="title-sm" style="text-align: center;">Explore Our Bathware Collections</h3>
+                          <h3 class="title-sm" style="text-align: center;">Explore Our Bathware Products</h3>
                           <p class="blog-text">
-                            We offer unique design concept, high quality product and enviromental friendly.
+                            We offer premium Bathware products with unmatched quality and aesthetics, made of using state-of-the-art technology.
                           </p>
                           <a href="bathware.html" class="btn btn-primary custom-btn-style-1 font-weight-bold text-3 px-5 py-3">EXPLORE ALL</a>
                         </div>
@@ -1123,12 +1172,12 @@
               <h4 class="font-weight-extra-bold text-5 ls-0">Useful Links</h4>
               <ul class="list-unstyled">
                 <li class="mb-1">
-                  <a href="#">Our Products</a>
+                  <a href="#">Our Services</a>
                 </li>
               </ul>
             </div> -->
             <div class="col-md-4 col-lg-2 mb-4 mb-md-0">
-              <h4 class="font-weight-extra-bold text-5 ls-0">Products</h4>
+              <h4 class="font-weight-extra-bold text-5 ls-0">Services</h4>
               <ul class="list-unstyled">
                 <li class="mb-1">
                   <a href="wall-tiles.html"
