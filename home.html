@@ -324,7 +324,7 @@
           </div>
         </div>
       </header>
-      <!--<div class="floating-icon">
+      <div class="floating-icon">
         <style>
           .floating-icon
           {
@@ -363,13 +363,18 @@
             background: #25D366;
             color: #fff;
           }
+          @media screen and (max-width: 991px) {
+            .floating-icon {
+              z-index: 1;
+            }
+          }
         </style>
         <div class="floating-container">
           <a class="icons whatsapp"  href="https://api.whatsapp.com/send?phone=9023508778" target="_blank">
             <ion-icon name="logo-whatsapp"></ion-icon>
           </a>
         </div>
-      </div>--->
+      </div>
 
       <div role="main" class="main">
         <section
@@ -993,7 +998,7 @@
           >
             <div class="d-flex justify-content-center" style="padding-top: 10rem;">
               <div
-                class="scrollable-parallax-wrapper bg-primary overflow-hidden"
+                class="scrollable-parallax-wrapper bg-primary overflow-hidden" style="z-index : 0;"
               >
                 <div
                   class="container container-xl-custom custom-container-style-3 custom-container-position-1 py-5 my-5 mx-0"
