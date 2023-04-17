@@ -336,9 +336,9 @@
             display: flex;
             justify-content: flex-end;
             align-items: center;
-            width: 97.5vw;
+            width: 97.8vw;
             position: relative;
-            top: 35em;
+            top: 38em;
             transition: all ease 0.5s;
           }
           .floating-container a {
@@ -376,7 +376,7 @@
         </div>
       </div>
 
-      <div role="main" class="main">
+      <div role="main" class="main" style="z-index: 0; position: relative;">
         <section
           class="section bg-primary border-0 position-relative z-index-1 py-0 m-0"
         >
@@ -1155,7 +1155,7 @@
                 <li>
                   <span class="d-block line-height-2 mb-1">EXPORT</span>
                   <a
-                    href="tel:9023508778"
+                    href="tel:+1234567890"
                     class="text-color-light text-6 text-lg-4 text-xl-6 font-weight-bold"
                     style="font-size: 16px !important;"
                     >90235 08778</a
@@ -1166,7 +1166,7 @@
                 <li>
                   <span class="d-block line-height-2 mb-1">DOMESTIC</span>
                   <a
-                    href="tel:8141721178"
+                    href="tel:+1234567890"
                     class="text-color-light text-6 text-lg-4 text-xl-6 font-weight-bold" style="font-size: 16px !important;"
                     >81417 21178</a
                   >
@@ -1263,7 +1263,7 @@
       ScrollReveal().reveal('.walltiles', { delay: 500, origin: 'left' });
       ScrollReveal().reveal('.floortiles', { delay: 500, origin: 'right' });
       ScrollReveal().reveal('.bathware', { delay: 500, origin: 'bottom', interval : 200 });
-      ScrollReveal().reveal('.floating-icon', { delay: 500, origin: 'right', interval : 600 });
+      ScrollReveal().reveal('.floating-icon', { delay: 1800, origin: 'right', interval : 300 });
     </script>
   </body>
 </html>
