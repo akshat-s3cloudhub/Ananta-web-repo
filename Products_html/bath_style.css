@@ -290,7 +290,7 @@ Products Section Ends
     border-radius: 30px;
     padding: 3rem;
     background-color: #dedede;
-    margin: 4rem;
+    margin: 5rem;
 }
 
 .row {
@@ -898,6 +898,6 @@ footer {
 
 @media screen and (max-width: 600px) and (min-width: 461px) {
     .con {
-        margin: 1.5rem;
+        margin: 2rem;
     }
 }
