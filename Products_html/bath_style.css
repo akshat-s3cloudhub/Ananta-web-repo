@@ -277,7 +277,7 @@ Products Section Ends
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-block: 3rem;
+    margin-block: 0rem;
 }
 
 .header h1 {
