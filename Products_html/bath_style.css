@@ -896,7 +896,7 @@ footer {
     }
 }
 
-@media(max-width:461px) and (max-width : 600px) {
+@media screen and(max-width:461px) and (max-width : 600px) {
     .con {
         margin: 1.5rem;
     }
