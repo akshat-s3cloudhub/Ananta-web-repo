@@ -895,3 +895,9 @@ footer {
         width: 50%;
     }
 }
+
+@media(max-width:461px) and (max-width : 600px) {
+    .con {
+        margin: 1.5rem;
+    }
+}
