@@ -896,7 +896,7 @@ footer {
     }
 }
 
-@media screen and (min-width:461px) and (max-width:600px) {
+@media screen and (max-width: 600px) and (min-width: 461px) {
     .con {
         margin: 1.5rem;
     }
