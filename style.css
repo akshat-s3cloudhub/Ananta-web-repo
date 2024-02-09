@@ -562,7 +562,7 @@ footer {
     height: 45vh;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
 
 
 }
@@ -573,7 +573,8 @@ footer {
     height: 200px;
     width: 15%;
     justify-content: center;
-    align-items: center;
+    /*align-items: center; */
+    align-items: baseline;
     flex-direction: column;
 }
 
@@ -595,7 +596,8 @@ footer {
     height: 200px;
     width: 18%;
     justify-content: space-between;
-    align-items: center;
+    /*align-items: center;*/
+    align-items: baseline;
     flex-direction: column;
 }
 
@@ -630,7 +632,8 @@ footer {
 .footer-container .footer-section .social {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    /*align-items: center;*/
+        align-items: baseline;
     width: 100%;
 }
 
