@@ -562,7 +562,7 @@ footer {
     height: 45vh;
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: center;
 
 
 }
