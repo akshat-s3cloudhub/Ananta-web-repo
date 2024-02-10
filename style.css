@@ -573,7 +573,7 @@ footer {
     height: 200px;
     width: 15%;
     justify-content: center;
-    align-items: center; 
+    align-items: baseline; 
     flex-direction: column;
 }
 
